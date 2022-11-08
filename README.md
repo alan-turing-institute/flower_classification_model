@@ -9,6 +9,6 @@ To install this package into your environment, run `pip install .` from this dir
 
 ## Contents of this package
 
-The python code itself is in the directory `honeybee_species_model/`
+The python code itself is in the directory `flower_classification_model/`
 * `__init__.py` just allows this directory to be treated as a python package, and imports the contents of `model.py` into the package's namespace.
 * `model.py` this is the wrapper for the model itself.   It ensures that images on which the model will be run are the correct size, and it provides the interface that Scivision expects.   It should contain a single class, which has a `predict` method.   It should also have a way of loading the weights.
