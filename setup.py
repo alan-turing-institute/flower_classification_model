@@ -10,10 +10,9 @@ with open("requirements.txt") as f:
 
 setup(
     name="flower_classification_model",
-    version="0.0.1",
+    version="0.0.2",
     description="scivision plugin, using EfficientNetB3 model",
-    ### TODO ###
-    url="INSERT URL OF THIS GITHUB REPO HERE",
+    url="https://github.com/alan-turing-institute/flower_classification_model",
     packages=find_packages(),
     install_requires=requirements,
     python_requires=">=3.7",
