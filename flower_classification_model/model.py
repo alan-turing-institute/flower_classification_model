@@ -19,7 +19,7 @@ class efficientNetB3:
     def __init__(self):
         filename = "flowers_98.04.h5"
         if not os.path.exists(filename):
-            model_path = os.path.join("https://connectionsworkshop.blob.core.windows.net/flowers", filename)
+            model_path = os.path.join("https://zenodo.org/record/7311288/files/", filename, "?download=1")
             r = requests.get(model_path)
             with open(filename, "wb") as outfile:
                 outfile.write(r.content)

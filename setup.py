@@ -10,7 +10,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="flower_classification_model",
-    version="0.0.2",
+    version="0.0.3",
     description="scivision plugin, using EfficientNetB3 model",
     url="https://github.com/alan-turing-institute/flower_classification_model",
     packages=find_packages(),
